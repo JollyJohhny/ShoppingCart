@@ -1,0 +1,154 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+
+<body>
+
+    @if (HelperClass.Userlogged == "Admin")
+    {
+        <!-- Page Preloder -->
+        <div id="preloder">
+            <div class="loader"></div>
+        </div>
+
+        <div class="sp-line"></div>
+
+        <!-- Header section -->
+        <header class="header-section">
+            <div class="container">
+                <ul class="main-menu-left site-menu-style">
+                    <li><a href="~/Home/Index">Home</a></li>
+                    <li><a href="~/Home/About">About</a></li>
+                    <li><a href="~/Home/Contact">Contact</a></li>
+                </ul>
+                <a href="index.html" class="site-logo">
+                    <img src="~/img/logo.png" alt="">
+                </a>
+                <ul class="main-menu-right site-menu-style">
+                    <li><a href="~/Admin/Account">My Account</a></li>
+                    <li><a href="~/Admin/AddProduct">Add Product</a></li>
+                    <li><a href="~/Admin/ViewProducts">View Products</a></li>
+
+                </ul>
+            </div>
+            <div class="search-switch">
+                <img src="img/search-icon.png" alt="">
+            </div>
+        </header>
+        <!-- Header section end -->
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="hero-social-links">
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-behance"></i></a>
+            </div>
+            <div class="brand-text">We love our brand</div>
+            <div class="hero-slider owl-carousel">
+                <div class="hero-slider-item set-bg" data-setbg="~/img/slider-bg-1.jpg">
+                    <div class="hs-content">
+                        <div class="container">
+                            <h2>Fashionista</h2>
+                            <a href="#" class="site-btn sb-white">Read More</a>
+                            <a href="#" class="site-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slider-item set-bg" data-setbg="~/img/slider-bg-1.jpg">
+                    <div class="hs-content">
+                        <div class="container">
+                            <h2>Fashionista</h2>
+                            <a href="#" class="site-btn sb-white">Read More</a>
+                            <a href="#" class="site-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero section end -->
+        <!-- Quote section end -->
+        <section class="quote-section">
+            <div class="container">
+                <div class="quote-text text-center">
+                    <p>"Fashion is about dressing according to what’s fashionable. Style is more about being yourself."</p>
+                    <h3>—Oscar de la Renta</h3>
+                </div>
+            </div>
+        </section>
+    }
+    else
+    {
+        <!-- Page Preloder -->
+        <div id="preloder">
+            <div class="loader"></div>
+        </div>
+
+        <div class="sp-line"></div>
+
+        <!-- Header section -->
+        <header class="header-section">
+            <div class="container">
+                <ul class="main-menu-left site-menu-style">
+                    <li><a href="~/Home/Index">Home</a></li>
+                    <li><a href="~/Home/About">About</a></li>
+                    <li><a href="~/Home/Contact">Contact</a></li>
+                </ul>
+                <a href="index.html" class="site-logo">
+                    <img src="~/img/logo.png" alt="">
+                </a>
+                <ul class="main-menu-right site-menu-style">
+                    <li><a href="~/Admin/Login">Admin Login</a></li>
+
+                </ul>
+            </div>
+            <div class="search-switch">
+                <img src="img/search-icon.png" alt="">
+            </div>
+        </header>
+        <!-- Header section end -->
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="hero-social-links">
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-behance"></i></a>
+            </div>
+            <div class="brand-text">We love our brand</div>
+            <div class="hero-slider owl-carousel">
+                <div class="hero-slider-item set-bg" data-setbg="~/img/slider-bg-1.jpg">
+                    <div class="hs-content">
+                        <div class="container">
+                            <h2>Fashionista</h2>
+                            <a href="#" class="site-btn sb-white">Read More</a>
+                            <a href="#" class="site-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slider-item set-bg" data-setbg="~/img/slider-bg-1.jpg">
+                    <div class="hs-content">
+                        <div class="container">
+                            <h2>Fashionista</h2>
+                            <a href="#" class="site-btn sb-white">Read More</a>
+                            <a href="#" class="site-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero section end -->
+        <!-- Quote section end -->
+        <section class="quote-section">
+            <div class="container">
+                <div class="quote-text text-center">
+                    <p>"Fashion is about dressing according to what’s fashionable. Style is more about being yourself."</p>
+                    <h3>—Oscar de la Renta</h3>
+                </div>
+            </div>
+        </section>
+    }
+</body>
